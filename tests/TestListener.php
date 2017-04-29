@@ -2,6 +2,7 @@
 
 namespace ABR\Tests\TeamWorker;
 
+use PHPUnit\Framework\TestListener as PHPUnitTestListener;
 use PHPUnit_Framework_BaseTestListener;
 use PHPUnit_Framework_TestSuite;
 
@@ -10,7 +11,7 @@ use PHPUnit_Framework_TestSuite;
  *
  * @author Alex Broom-Roden
  */
-class TestListener extends PHPUnit_Framework_BaseTestListener
+class TestListener extends PHPUnit_Framework_BaseTestListener implements PHPUnitTestListener
 {
     /**
      * A test suite ended.
@@ -21,7 +22,7 @@ class TestListener extends PHPUnit_Framework_BaseTestListener
      */
     public function endTestSuite(PHPUnit_Framework_TestSuite $suite)
     {
-        if ($suite->getName() !== 'LMS Test Suite') {
+        if ($suite->getName() !== 'TeamWorker Test Suite') {
             return;
         }
         foreach (glob(__DIR__.'/../bootstrap/cache/*.php', GLOB_BRACE) as $file) {
