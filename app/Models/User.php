@@ -15,7 +15,31 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 
+        'email', 
+        'password',
+    ];
+
+    /**
+     * The attributes that should be casted to native types.
+     *
+     * @var string[]
+     */
+    protected $casts = [
+        'name'     => 'string', 
+        'email'    => 'string', 
+        'password' => 'string',
+    ];
+
+    /**
+     * The validation rules.
+     *
+     * @var string[]
+     */
+    public $rules = [
+        'name'     => 'required|string', 
+        'email'    => 'required|string', 
+        'password' => 'required|string',
     ];
 
     /**
