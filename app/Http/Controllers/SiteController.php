@@ -17,6 +17,11 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\View;
 
+/**
+ * This is the site controller class.
+ *
+ * @author Alex Broom-Roden <b.r_alex@hotmail.co.uk>
+ */
 class SiteController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;

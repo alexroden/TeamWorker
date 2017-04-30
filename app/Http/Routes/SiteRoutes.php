@@ -16,7 +16,7 @@ use Illuminate\Contracts\Routing\Registrar;
 /**
  * This is the site routes class.
  *
- * @author Alex Broom-Roden <alex@deepthoughlearning.com>
+ * @author Alex Broom-Roden <b.r_alex@hotmail.co.uk>
  */
 class SiteRoutes
 {

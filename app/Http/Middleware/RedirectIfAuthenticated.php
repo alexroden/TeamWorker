@@ -14,6 +14,11 @@ namespace ABR\TeamWorker\Http\Middleware;
 use Closure;
 use Illuminate\Support\Facades\Auth;
 
+/**
+ * This is the redirect if authenticated class.
+ *
+ * @author Alex Broom-Roden <b.r_alex@hotmail.co.uk>
+ */
 class RedirectIfAuthenticated
 {
     /**

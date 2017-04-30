@@ -15,6 +15,11 @@ use Exception;
 use GrahamCampbell\Exceptions\NewExceptionHandler;
 use Illuminate\Auth\AuthenticationException;
 
+/**
+ * This is the exception handler class.
+ *
+ * @author Alex Broom-Roden <b.r_alex@hotmail.co.uk>
+ */
 class ExceptionHandler extends NewExceptionHandler
 {
     /**

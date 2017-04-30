@@ -18,6 +18,11 @@ use RecursiveIteratorIterator;
 use RecursiveRegexIterator;
 use RegexIterator;
 
+/**
+ * This is the route service provider class.
+ *
+ * @author Alex Broom-Roden <b.r_alex@hotmail.co.uk>
+ */
 class RouteServiceProvider extends ServiceProvider
 {
     /**

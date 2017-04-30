@@ -14,6 +14,11 @@ namespace ABR\TeamWorker\Foundation\Providers;
 use Illuminate\Support\Facades\Broadcast;
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * This is the broadcast service provider class.
+ *
+ * @author Alex Broom-Roden <b.r_alex@hotmail.co.uk>
+ */
 class BroadcastServiceProvider extends ServiceProvider
 {
     /**

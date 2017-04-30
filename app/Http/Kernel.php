@@ -13,6 +13,11 @@ namespace ABR\TeamWorker\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
+/**
+ * This is http kernel class.
+ *
+ * @author Alex Broom-Roden <b.r_alex@hotmail.co.uk>
+ */
 class Kernel extends HttpKernel
 {
     /**

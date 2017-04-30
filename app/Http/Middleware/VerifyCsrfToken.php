@@ -13,6 +13,11 @@ namespace ABR\TeamWorker\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 
+/**
+ * This is the verify csrf token class.
+ *
+ * @author Alex Broom-Roden <b.r_alex@hotmail.co.uk>
+ */
 class VerifyCsrfToken extends BaseVerifier
 {
     /**

@@ -13,6 +13,9 @@ namespace ABR\TeamWorker\Foundation\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * This is the app service provider class.
+ */
 class AppServiceProvider extends ServiceProvider
 {
     /**

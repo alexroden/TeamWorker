@@ -13,6 +13,11 @@ namespace ABR\TeamWorker\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 
+/**
+ * This is the encrypt cookies class.
+ *
+ * @author Alex Broom-Roden <b.r_alex@hotmail.co.uk>
+ */
 class EncryptCookies extends BaseEncrypter
 {
     /**
