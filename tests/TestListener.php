@@ -2,7 +2,6 @@
 
 namespace ABR\Tests\TeamWorker;
 
-use PHPUnit\Framework\TestListener as PHPUnitTestListener;
 use PHPUnit_Framework_BaseTestListener;
 use PHPUnit_Framework_TestSuite;
 
@@ -11,7 +10,7 @@ use PHPUnit_Framework_TestSuite;
  *
  * @author Alex Broom-Roden
  */
-class TestListener extends PHPUnit_Framework_BaseTestListener implements PHPUnitTestListener
+class TestListener extends PHPUnit_Framework_BaseTestListener
 {
     /**
      * A test suite ended.
