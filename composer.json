@@ -17,6 +17,7 @@
         "laravel/passport": "^1.0",
         "mccool/laravel-auto-presenter": "^5.0",
         "nikic/php-parser": "^3.0",
+        "ramsey/uuid": "^3.5",
         "laravel/tinker": "^1.0",
         "laravel/browser-kit-testing": "^1.0"
     },

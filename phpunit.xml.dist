@@ -25,9 +25,6 @@
             <directory suffix=".php">./app</directory>
         </whitelist>
     </filter>
-    <listeners>
-        <listener class="ABR\Tests\TeamWorker\TestListener" file="./tests/TestListener.php" />
-    </listeners>
     <php>
         <env name="APP_ENV" value="testing"/>
         <env name="APP_DEBUG" value="true"/>
